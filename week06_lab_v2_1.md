@@ -420,8 +420,12 @@ ElevatedButton(
 จากนั้นรันแอป กดปุ่มนี้ แล้วดูผลลัพธ์ใน Debug Console (ปุ่มนี้เป็นแค่ปุ่มทดลองชั่วคราว ไม่ต้องมีการจัดการ Loading/Error ใด ๆ ต่างจากปุ่ม "ค้นหา" หลักของหน้า)
 
 > ✅ **Checkpoint 3.1** ถ่ายภาพหน้าจอ Debug Console ที่แสดง Status Code (ควรเป็น `201 Created`) พร้อม Response Body 
+
+![](https://github.com/user-attachments/assets/e4c5bc62-44bf-4948-aee9-097df814d39f)
+
 ```text
-บันทึกรูปและคำตอบที่นี่
+Status Code ที่ได้ 201 Created
+อยู่ในกลุ่ม 2xx สำเร็จ 200 OK, 201 Created
 ```
 
 ### ขั้นตอนที่ 3.2 — 🧠 คิดเอง/ออกแบบเอง
