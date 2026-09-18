@@ -501,13 +501,11 @@ GET https://fakestoreapi.com/products
 ไม่ว่าจะเลือกแบบไหน เป้าหมายคือต้องเห็น **ผลลัพธ์จริงจาก Fake Store API** ปรากฏขึ้นมา  ถ้ารันแล้วเจอ error หรือโค้ดจาก Gemini ผิดพลาด (เช่น import ขาด, ชื่อ field ไม่ตรงกับ JSON จริง) ให้จดบันทึกข้อความ error และวิธีแก้ไขไว้ในด้านล่าง
 
 ```text
-บันทึก error และการแก้ไขที่นี่
+ไม่พบ Error โค้ดที่สร้างโดย AI สามารถคอมไพล์และทำงานร่วมกับ Fake Store API ได้อย่างสมบูรณ์ โครงสร้าง Field ตรงกับ JSON และการ cast ตัวเลข price ผ่าน num เป็น toDouble() ช่วยป้องกันปัญหาระหว่าง int และ double ได้ถูกต้อง
 ```
 
 > ✅ **Checkpoint 4.2** ถ่ายภาพหน้าจอ Debug Console ที่แสดงผลลัพธ์จริงจากการเรียก `fetchAiProducts()` (เช่น รายการสินค้าที่ print ออกมา) 
-```text
-บันทึกรูปที่นี่
-```
+![](https://github.com/user-attachments/assets/83059ec6-0fe7-4bb0-bf48-55bb04340f14)
 
 ---
 
